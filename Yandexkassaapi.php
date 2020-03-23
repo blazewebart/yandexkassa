@@ -130,7 +130,7 @@ class YandexKassaApi
         );
 
         //save log data
-        $this->obj->user->saveLogData('yandex_kassa_create_payment', $response, true);
+        $this->saveLogData('yandex_kassa_create_payment', $response, true);
 
         //return response data
         return $response;
