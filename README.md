@@ -54,9 +54,9 @@
   $this->model->saveResponseToDatabase($id_payment, $data_payment);
   ```
 
-**4)Get Callback from Yandex Kassa and save data to log and/or to database**
+**4) Get Callback from Yandex Kassa and save data to log and/or to database**
   
-  get data from yandex kassa in json format
+  get callback data from yandex kassa in json format
   ```php
   $source = file_get_contents('php://input');
   $json = json_decode($source, true);
