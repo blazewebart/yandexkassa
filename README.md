@@ -1,6 +1,6 @@
 # Yandex Kassa Codeigniter Library payment integration
 
-* *This Codeigniter Library Class which use Yandex Kassa Api integration.* *
+*This Codeigniter Library Class which use Yandex Kassa Api integration.*
 
 
 **1) Yandex Kassa Api and other documentation.**
