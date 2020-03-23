@@ -1,14 +1,17 @@
 # Yandex Kassa Codeigniter Library payment integration
 
-### This Codeigniter Library Class using by Yandex Kassa Library. 
+* *This Codeigniter Library Class which use Yandex Kassa Api integration.* *
+
 
 **1) Yandex Kassa Api and other documentation.**
 
 [Yandex Kassa Developers Api](https://kassa.yandex.ru/developers/api)
 
+
 **2) For working Yandex Kassa should add The Yandex.Checkout API PHP Client Library to Codeigniter in vendor folder.**
 
 [The Yandex.Checkout API PHP Client Library](https://github.com/yandex-money/yandex-checkout-sdk-php.git)
+
 
 **3) Include Codeigniter Class.**
 
