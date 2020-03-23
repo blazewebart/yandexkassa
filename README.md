@@ -8,14 +8,14 @@
 [Yandex Kassa Developers Api](https://kassa.yandex.ru/developers/api)
 
 
-**2) For working Yandex Kassa should add The Yandex.Checkout API PHP Client Library to Codeigniter in vendor folder.**
+**2) For working Yandex Kassa should add The Yandex.Checkout API PHP Client Library to Codeigniter to vendor folder.**
 
 [The Yandex.Checkout API PHP Client Library](https://github.com/yandex-money/yandex-checkout-sdk-php.git)
 
 
 **3) Include Codeigniter Class.**
 
-  Create peyment in Yandex Kassa and save data to log and/or to database
+  Create payment and send data to Yandex Kassa then save data to log and/or to database
 
   load library
   ```php
@@ -45,13 +45,13 @@
   
   update response data
   ```php
-  $data_payment = Array();
-  $data_payment['ya_data'] = ($response)?serialize($response):"";
+  $data_response = Array();
+  $data_response['ya_data'] = ($response)?serialize($response):"";
   ```
 
-  save response from Yandex Kassa to Database
+  save response data from Yandex Kassa to Database
   ```php
-  $this->model->saveResponseToDatabase($id_payment, $data_payment);
+  $this->model->saveResponseToDatabase($id_payment, $data_response);
   ```
 
 **4) Get Callback from Yandex Kassa and save data to log and/or to database**
